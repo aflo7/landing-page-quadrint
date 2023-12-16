@@ -1,0 +1,56 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 40px;
+  width: 1100px;
+}
+
+.wrapper {
+  background-image: url(https://quadrint.com/wp-content/uploads/2013/05/header.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(87, 191, 234);
+  font-size: 4rem;
+  margin: 0;
+}
+
+main {
+  padding: 80px 40px;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
+}
+
+.main-wrapper,
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-wrapper {
+  background: rgba(79, 82, 86, 0.7);
+}
+
+.quadrint-logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.quadrint-logo-wrapper > img {
+  height: 280px;
+}
+@media only screen and (min-width: 1100px) {
+  main {
+    flex-direction: row;
+    display: flex;
+    gap: 60px;
+  }
+}
